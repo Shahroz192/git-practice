@@ -43,3 +43,6 @@ class PasswordGenerator(ctk.CTk):
         # Display the password in a messagebox
         messagebox.showinfo("The Password is:", password)
 
+if __name__ == "__main__":
+    password_generator = PasswordGenerator()
+    password_generator.mainloop()
